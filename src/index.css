@@ -23,42 +23,36 @@ html {
 }
 
 .about-me-img::before {
+  top: -20px;
+  left: -20px;
+}
+.about-me-img::after,
+.about-me-img::before {
   content: "";
   height: 100%;
   width: 100%;
-  border: 5px solid #e44efe;
+  border: 7px solid #e44efe;
   position: absolute;
-  top: -30px;
-  left: -30px;
   border-radius: 12px;
-  transform: rotate(0deg);
+  /* transform: rotate(0deg); */
   z-index: -1;
   transition: 0.5s;
 }
 .about-me-img::after {
-  content: "";
-  height: 100%;
-  width: 100%;
-  border: 5px solid #e44efe;
-  position: absolute;
-  bottom: -30px;
-  right: -30px;
-  border-radius: 12px;
-  transform: rotate(0deg);
-  z-index: -1;
-  transition: 0.5s;
+  bottom: -20px;
+  right: -20px;
 }
 .about-me-img:hover::after {
-  bottom: 0px;
-  right: 0px;
-  transform: rotate(90deg);
-  border: 5px solid #e54efe;
+  bottom: 30px;
+  right: -30px;
+  /* transform: rotate(90deg); */
+  /* border: 5px solid #e54efe; */
 }
 .about-me-img:hover::before {
-  top: 0px;
-  left: 0px;
-  transform: rotate(-90deg);
-  border: 5px solid #e54efe;
+  top: 30px;
+  left: -30px;
+  /* transform: rotate(-90deg); */
+  /* border: 5px solid #e54efe; */
 }
 
 @layer base {
@@ -81,5 +75,22 @@ html {
   }
 }
 
-.is_active {
+.loader-logo {
+  stroke: #e54efe;
+  stroke-dasharray: 30;
+  stroke-dashoffset: 100;
+  animation: motion 1s infinite;
+  animation-fill-mode: forwards;
+  animation-timing-function: cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  stroke-width: 2px;
+  stroke-linecap: round;
+}
+
+@keyframes motion {
+  0% {
+    stroke-dasharray: 100;
+  }
+  100% {
+    stroke-dasharray: 500;
+  }
 }

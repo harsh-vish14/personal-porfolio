@@ -3,14 +3,11 @@ import me_image from "../../../src/assets/aboutme_img.png";
 
 function ABOUTME() {
   return (
-    <div className="h-screen pt-20 ">
+    <div className="mb-10 pt-20">
       <div className="py-4 font-bold text-3xl">ABOUT ME</div>
-      <div className="flex md:flex-row flex-col items-center justify-around gap-5">
-        <div className="about-me-img">
-          <img
-            src={me_image}
-            className="min-h-[100px] min-w-[100px] max-h-[300px] max-w-[300px]"
-          />
+      <div className="flex md:flex-row flex-col items-center justify-around gap-5 mt-10">
+        <div className="about-me-img mr-5 mb-10">
+          <img src={me_image} className="max-h-[200px] max-w-[200px]" />
         </div>
         <div className="text-xl max-w-lg ">
           Hi 👋🏽, I am Harshkumar Vishwakarma, a curious and passionate learner
