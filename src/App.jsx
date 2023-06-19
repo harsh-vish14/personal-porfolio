@@ -8,9 +8,12 @@ import HOME from "../components/home/home";
 import NAVBAR from "../components/navbar";
 import LOADER from "../components/loader/loader";
 import { useEffect, useState } from "react";
+import ALERT from "../components/home/alert_mobile";
 
 function App() {
+  console.log(navigator.userAgentData);
   const [pageLoading, setPageLoading] = useState(true);
+
   // This will run one time after the component mounts
   useEffect(() => {
     // callback function to call when event triggers
@@ -31,6 +34,7 @@ function App() {
   }, []);
   return (
     <>
+      {navigator.userAgentData.mobile && <ALERT />}
       {pageLoading && <LOADER />}
       <TooltipProvider>
         <NAVBAR />
