@@ -23,6 +23,22 @@ function App() {
       // do something else
     };
 
+    var link = document.querySelector("link[rel~='icon']");
+    if (!link) {
+      link = document.createElement("link");
+      link.rel = "icon";
+      document.head.appendChild(link);
+    }
+
+    const darkThemeMq = window.matchMedia("(prefers-color-scheme: dark)");
+    if (darkThemeMq.matches) {
+      // Theme set to dark.
+      link.href = "favicon_dark.png";
+    } else {
+      // Theme set to light.
+      link.href = "favicon_light.png";
+    }
+
     // Check if the page has already loaded
     if (document.readyState === "complete") {
       onPageLoad();
@@ -32,6 +48,7 @@ function App() {
       return () => window.removeEventListener("load", onPageLoad);
     }
   }, []);
+
   return (
     <>
       {navigator.userAgentData.mobile && <ALERT />}

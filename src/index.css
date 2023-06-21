@@ -10,6 +10,47 @@ html {
   scroll-behavior: smooth;
   transition: 0.5s;
 }
+:root {
+  /* --background: #380c6a;
+  --foreground: #362c91;
+
+  --muted: #38210e;
+  --muted-foreground: #3674a9;
+
+  --popover: #380c6a;
+  --popover-foreground: #3674a9;
+
+  --card: #380c6a;
+  --card-foreground: #362c91;
+
+  --border: #362323;
+  --input: #362323;
+
+  --primary: #3674a9;
+  --primary-foreground: #380e02;
+
+  --secondary: #0000ff;
+  --secondary-foreground: #3674a9;
+
+  --accent: #362323;
+  --accent-foreground: #3674a9;
+
+  --destructive: #ffa33f;
+  --destructive-foreground: #380e02;
+
+  --ring: #362323;
+
+  --radius: 0.5rem; */
+}
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+    font-feature-settings: "rlig" 1, "calt" 1;
+  }
+}
 
 .link-bg {
   font-family: "Alfa Slab One", cursive;
