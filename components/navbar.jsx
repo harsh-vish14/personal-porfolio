@@ -142,7 +142,6 @@ function NAVBAR() {
                   />
                 </a>
               }
-              {/* {console.log(InViewport(logoRef))} */}
             </TooltipTrigger>
             <TooltipContent>
               <p>Top of Page</p>

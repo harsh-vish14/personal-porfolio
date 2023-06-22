@@ -1,13 +1,22 @@
 {
   "PROJECTS": [
     {
-      "image": "/favicon_dark.png",
-      "logo": "/favicon_dark.png",
-      "description": "description1",
-      "title": "title1",
-      "github": "github1",
-      "deploy": "deploy can be null",
-      "stack": []
+      "image": "https://i.pinimg.com/736x/06/d7/16/06d716a7723f18cc0351a47177fd78be.jpg",
+      "logo": "https://i.pinimg.com/564x/59/83/14/598314074a9a7f3fcd0facf8f27d744d.jpg",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia, molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium optio, eaque rerum! Provident similique accusantium nemo autem. Veritatis obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam nihil, eveniet aliquid culpa officia aut! Impedit sit sunt quaerat, odit, tenetur error, harum nesciunt ipsum debitis quas aliquid. ",
+      "title": "Startbucks",
+      "github": "https://github.com/harsh-vish14/personal-porfolio",
+      "deploy": "https://github.com/harsh-vish14/personal-porfolio",
+      "stack": ["css", "react js", "javascript", "tailwind"]
+    },
+    {
+      "image": "https://i.pinimg.com/564x/b7/02/5d/b7025d093060cf8b6608334d9a78c616.jpg",
+      "logo": "https://i.pinimg.com/564x/95/84/d5/9584d5e3baae3add6ffa57e6bd34587b.jpg",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia, molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium optio, eaque rerum! Provident similique accusantium nemo autem. Veritatis obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam nihil, eveniet aliquid culpa officia aut! Impedit sit sunt quaerat, odit, tenetur error, harum nesciunt ipsum debitis quas aliquid. ",
+      "title": "Apple Website",
+      "github": "https://github.com/harsh-vish14/personal-porfolio",
+      "deploy": "https://github.com/harsh-vish14/personal-porfolio",
+      "stack": ["css", "react js", "javascript", "tailwind"]
     }
   ]
 }
