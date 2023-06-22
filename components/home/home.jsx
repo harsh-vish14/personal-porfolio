@@ -11,7 +11,7 @@ function HOME() {
       <div style={{ marginBottom: "100px" }} id="techStack">
         <TECHSTACK />
       </div>
-      <div style={{ height: "100vh" }} id="projects">
+      <div style={{ minHeight: "100vh" }} id="projects">
         <PROJECT />
       </div>
       <div style={{ height: "100vh" }} id="testimony"></div>

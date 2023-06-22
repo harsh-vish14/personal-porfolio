@@ -1,0 +1,13 @@
+{
+  "PROJECTS": [
+    {
+      "image": "/favicon_dark.png",
+      "logo": "/favicon_dark.png",
+      "description": "description1",
+      "title": "title1",
+      "github": "github1",
+      "deploy": "deploy can be null",
+      "stack": []
+    }
+  ]
+}

@@ -27,17 +27,17 @@ function NAVBAR() {
     entries.forEach((entry) => {
       const visibleSectionId = entry?.target?.id;
       if (entry.isIntersecting) {
-        console.log(`visible. ${linkActive}`);
         setlinkActive((preItem) => ({
           ...preItem,
           [visibleSectionId]: true,
         }));
+        console.log(`visible.  `, visibleSectionId);
       } else {
         setlinkActive((preItem) => ({
           ...preItem,
           [visibleSectionId]: false,
         }));
-        console.log(`not visible.  `, linkActive);
+        console.log(`not visible.  `, visibleSectionId);
       }
     });
   };
@@ -46,7 +46,7 @@ function NAVBAR() {
     const options = {
       root: null, // Use the viewport as the root element
       rootMargin: "0px",
-      threshold: 0.5, // The element is considered visible when at least 50% is in the viewport
+      threshold: 0.3, // The element is considered visible when at least 50% is in the viewport
     };
 
     const observer = new IntersectionObserver(handleIntersection, options);
