@@ -14,13 +14,13 @@ import {
 function NAVBAR() {
   const logoRef = useRef(null);
 
-  const sections = ["techStack", "projects", "testimony", "blogs"];
+  const sections = ["techStack", "projects", "testimony", "ContactMe"];
   const [linkActive, setlinkActive] = useState({
     techStack: false,
     projects: false,
     testimony: false,
     blogs: false,
-    contactMe: false,
+    ContactMe: false,
   });
 
   const handleIntersection = (entries) => {
@@ -114,6 +114,7 @@ function NAVBAR() {
             </a>
           </div>
           <div>
+            {/* TODO: make blog section visible once it is completed - DESKTOP NAVBAR LINK */}
             {/* <a
               href="#blogs"
               className={
@@ -149,7 +150,18 @@ function NAVBAR() {
           </Tooltip>
           {/* tooltip end */}
         </div>
-        <div className="lg:visible hidden lg:flex">Contact Me</div>
+        <div className="lg:visible hidden lg:flex">
+          <a
+            href="#ContactMe"
+            className={
+              linkActive.ContactMe
+                ? "drop-shadow-[0px_0px_4px_#E54EFE] font-semibold"
+                : ""
+            }
+          >
+            Contact Me
+          </a>
+        </div>
 
         {/* mobile view */}
         <div className="lg:hidden visible absolute right-5">
@@ -238,7 +250,8 @@ function NAVBAR() {
                     TESTIMONY
                   </span>
                 </div>
-                <div>
+                {/* <div>
+                  TODO: make blog section visible once it is completed - MOBILE NAVBAR LINK
                   <a
                     href="#blogs"
                     className={
@@ -257,6 +270,27 @@ function NAVBAR() {
                     }
                   >
                     BLOGS
+                  </span>
+                </div> */}
+                <div>
+                  <a
+                    href="#ContactMe"
+                    className={
+                      linkActive.ContactMe
+                        ? "drop-shadow-[0px_0px_4px_#E54EFE] font-semibold"
+                        : ""
+                    }
+                  >
+                    Contact Me
+                  </a>
+                  <span
+                    className={
+                      linkActive.ContactMe
+                        ? "absolute top-1/2 left-1/2 text-9xl font-black -translate-x-1/2 -translate-y-1/2 -z-20 opacity-10 scale-100 link-bg"
+                        : "hidden"
+                    }
+                  >
+                    CONTACT ME
                   </span>
                 </div>
               </div>

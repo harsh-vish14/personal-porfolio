@@ -18,7 +18,7 @@ function HOME() {
       <div style={{ minHeight: "100vh" }} id="testimony">
         <TESTIMONY />
       </div>
-      <div style={{ height: "100vh" }} id="blogs"></div>
+      <div style={{ height: "100vh" }} id="ContactMe"></div>
     </div>
   );
 }
