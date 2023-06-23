@@ -114,7 +114,7 @@ function NAVBAR() {
             </a>
           </div>
           <div>
-            <a
+            {/* <a
               href="#blogs"
               className={
                 linkActive.blogs
@@ -123,7 +123,7 @@ function NAVBAR() {
               }
             >
               Blogs
-            </a>
+            </a> */}
           </div>
         </div>
         <div className="lg:-ml-[230px]">

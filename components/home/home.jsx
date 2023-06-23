@@ -2,6 +2,7 @@ import ABOUTME from "./components/aboutme";
 import HEADER from "./components/header";
 import PROJECT from "./components/project/project";
 import TECHSTACK from "./components/techstack/techstack";
+import TESTIMONY from "./components/testomony/testomony";
 
 function HOME() {
   return (
@@ -14,7 +15,9 @@ function HOME() {
       <div style={{ minHeight: "100vh" }} id="projects">
         <PROJECT />
       </div>
-      <div style={{ height: "100vh" }} id="testimony"></div>
+      <div style={{ minHeight: "100vh" }} id="testimony">
+        <TESTIMONY />
+      </div>
       <div style={{ height: "100vh" }} id="blogs"></div>
     </div>
   );
