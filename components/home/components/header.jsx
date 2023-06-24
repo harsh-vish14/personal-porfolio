@@ -58,7 +58,14 @@ function HEADER() {
           <span className="font-bold uppercase text-xl">Idea</span> come{" "}
           <span className="font-bold uppercase text-xl">Real</span>
         </div>
-        <div className="mt-10 text-lg">Lets Connect</div>
+        <div className="mt-10 text-lg ">
+          <a
+            href="#ContactMe"
+            className="hover:bg-[#393C45] w-fit p-3 rounded-md"
+          >
+            Lets Connect
+          </a>
+        </div>
       </div>
     </header>
   );
