@@ -1,6 +1,8 @@
 import React from "react";
 import { Input } from "../../../ui/input";
 import { Textarea } from "../../../ui/textarea";
+import linkedin from "/linkedin.png";
+import github from "/github.png";
 
 function CONTACT_ME() {
   return (
@@ -45,6 +47,17 @@ function CONTACT_ME() {
             >
               harshkv9322@gmail.com
             </a>
+            <div className="flex gap-3 mt-5 justify-center">
+              <a
+                href="https://www.linkedin.com/in/harsh-vish14/"
+                target="_blank"
+              >
+                <img src={linkedin} style={{ width: "35px" }} />
+              </a>
+              <a href="https://github.com/harsh-vish14" target="_blank">
+                <img src={github} style={{ width: "35px" }} />
+              </a>
+            </div>
           </div>
         </div>
       </div>
