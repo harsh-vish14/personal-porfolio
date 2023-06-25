@@ -99,7 +99,7 @@ function TESTIMONY() {
                         className="w-12 h-12 bg-center bg-cover rounded-full dark:bg-gray-500"
                       />
                       <div>
-                        <p className="text-lg font-semibold">Akashat Khurana</p>
+                        <p className="text-lg font-semibold">Akshat Khurana</p>
                         <p className="text-sm dark:text-gray-400">
                           Student @Thakur College Of Engineering and Technology
                         </p>
@@ -128,7 +128,7 @@ function TESTIMONY() {
                         className="w-12 h-12 bg-center bg-cover rounded-full dark:bg-gray-500"
                       />
                       <div>
-                        <p className="text-lg font-semibold">Viany Kumhar</p>
+                        <p className="text-lg font-semibold">Vinay Kumhar</p>
                         <p className="text-sm dark:text-gray-400">
                           Student @Thakur College Of Engineering and Technology
                         </p>
