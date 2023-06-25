@@ -3,8 +3,14 @@ import { Input } from "../../../ui/input";
 import { Textarea } from "../../../ui/textarea";
 import linkedin from "/linkedin.png";
 import github from "/github.png";
+import { useState } from "react";
 
 function CONTACT_ME() {
+  const [name, setName] = useState("");
+  const [email, setEmail] = useState("");
+  const [message, setMessage] = useState("");
+
+  const submitHandler = async () => {};
   return (
     <div className=" bg-gradient-to-t from-transparent to-[#393C45] block sm:flex  gap-x-3 rounded-lg p-5 ">
       <div className="w-full sm:w-1/2">
@@ -15,18 +21,45 @@ function CONTACT_ME() {
         <div className="flex flex-col gap-5 pt-10">
           <div>
             <label htmlFor="name">Name</label>
-            <Input type="text" id="name" placeholder="Name" />
+            <Input
+              value={name}
+              onChange={(e) => {
+                console.log(e.target.value);
+                setName(e.target.value);
+              }}
+              type="text"
+              id="name"
+              placeholder="Name"
+            />
           </div>
           <div>
             <label htmlFor="email">Email</label>
-            <Input type="email" id="email" placeholder="Email" />
+            <Input
+              value={email}
+              onChange={(e) => {
+                setEmail(e.target.value);
+              }}
+              type="email"
+              id="email"
+              placeholder="Email"
+            />
           </div>
           <div>
             <label htmlFor="email">Message</label>
-            <Textarea placeholder="Type your message here." id="message" />
+            <Textarea
+              value={message}
+              onChange={(e) => {
+                setMessage(e.target.value);
+              }}
+              placeholder="Type your message here."
+              id="message"
+            />
           </div>
           <div className="w-full">
-            <button class="rounded-md text-primary-dark font-semibold text-lg w-[200px] px-5 py-3 bg-pink hover:opacity-90  active:scale-90">
+            <button
+              class="rounded-md text-primary-dark font-semibold text-lg w-[200px] px-5 py-3 bg-pink hover:opacity-90  active:scale-95"
+              onClick={submitHandler}
+            >
               Send
             </button>
           </div>
