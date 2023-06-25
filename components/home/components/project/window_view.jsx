@@ -107,8 +107,11 @@ function WINDOW_VIEW_PROJECT() {
                   </Tooltip>
                   {/* tooltip end */}
                 </div>
+                <div className="text-lg opacity-60 mb-5">
+                  {item.disclaimer ? item.disclaimer : ""}
+                </div>
                 <div className="text-xl">{item.description}</div>
-                <div className="text-lg flex flex-wrap gap-2">
+                <div className="text-lg flex flex-wrap gap-2 mt-5">
                   {item.stack.map((tool, key) => {
                     return (
                       <div className="text-lg uppercase bg-[#393C4590] p-3 rounded-md">

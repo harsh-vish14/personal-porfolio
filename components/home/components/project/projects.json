@@ -1,22 +1,43 @@
 {
   "PROJECTS": [
     {
-      "image": "https://i.pinimg.com/736x/06/d7/16/06d716a7723f18cc0351a47177fd78be.jpg",
-      "logo": "https://i.pinimg.com/564x/59/83/14/598314074a9a7f3fcd0facf8f27d744d.jpg",
-      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia, molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium optio, eaque rerum! Provident similique accusantium nemo autem. Veritatis obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam nihil, eveniet aliquid culpa officia aut! Impedit sit sunt quaerat, odit, tenetur error, harum nesciunt ipsum debitis quas aliquid. ",
-      "title": "Startbucks",
-      "github": "https://github.com/harsh-vish14/personal-porfolio",
-      "deploy": "https://github.com/harsh-vish14/personal-porfolio",
-      "stack": ["css", "react js", "javascript", "tailwind"]
+      "image": "https://firebasestorage.googleapis.com/v0/b/images-to-link-converter.appspot.com/o/shoppingify.png?alt=media&token=d840ca54-329d-498f-b657-7d1a668e95f4",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/images-to-link-converter.appspot.com/o/shoppingify_icon.png?alt=media&token=e8936728-d4cc-4fd8-912c-bd77e4e480e7",
+      "description": "Introducing Shoppingfy, the ultimate digital grocery planner! With a user-friendly interface, you can choose from a wide range of predefined items or add your own. It intelligently categorizes items into meat/non-veg and veggies/fruits, providing you with a ratio of your choices. You can easily increase quantities, and deleted items are added to a history log. Resetting the list is a breeze. Simply login with your Google account on the website and experience the convenience of Shoppingfy. Say goodbye to scattered shopping lists and embrace a streamlined, personalized shopping experience!",
+      "title": "Shoppinfy",
+      "disclaimer": null,
+      "github": "https://github.com/harsh-vish14/shoppingify-react-app",
+      "deploy": "https://shoppingify-react.web.app/",
+      "stack": ["REACT JS", "CSS", "SCSS", "HTML", "JAVASCRIPT", "FIREBASE"]
     },
     {
-      "image": "https://i.pinimg.com/564x/b7/02/5d/b7025d093060cf8b6608334d9a78c616.jpg",
-      "logo": "https://i.pinimg.com/564x/95/84/d5/9584d5e3baae3add6ffa57e6bd34587b.jpg",
-      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia, molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium optio, eaque rerum! Provident similique accusantium nemo autem. Veritatis obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam nihil, eveniet aliquid culpa officia aut! Impedit sit sunt quaerat, odit, tenetur error, harum nesciunt ipsum debitis quas aliquid. ",
-      "title": "Apple Website",
-      "github": "https://github.com/harsh-vish14/personal-porfolio",
-      "deploy": "https://github.com/harsh-vish14/personal-porfolio",
-      "stack": ["css", "react js", "javascript", "tailwind"]
+      "image": "https://firebasestorage.googleapis.com/v0/b/images-to-link-converter.appspot.com/o/chat_app.png?alt=media&token=7d39318e-9884-4717-ba3e-43bf75597876",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/images-to-link-converter.appspot.com/o/chat_app_icon.png?alt=media&token=dd17d7be-6412-4e08-b6bf-c75737d5f2d2",
+      "description": "The ultimate Chat Group app that keeps you connected with peers like never before. With Chatify, you can create and join chat channels, send and receive messages, view channel members, and foster engaging conversations in real-time. Seamlessly navigate through channels, participate in discussions, and build lasting connections with Chatify's user-friendly interface and immersive features. Experience a new level of group communication and collaboration with Chatify, the go-to app for vibrant and interactive chat experiences.",
+      "title": "Chat Group",
+      "disclaimer": null,
+      "github": "https://github.com/harsh-vish14/chat-app-client",
+      "deploy": "https://chat-app-hv.web.app/",
+      "stack": [
+        "REACT JS",
+        "CSS",
+        "SCSS",
+        "HTML",
+        "JAVASCRIPT",
+        "EXPRESS",
+        "NODE JS",
+        "SOCKET.IO"
+      ]
+    },
+    {
+      "image": "https://firebasestorage.googleapis.com/v0/b/images-to-link-converter.appspot.com/o/pizza_ordering.png?alt=media&token=4f25be03-3334-490a-bb70-9e1f98413096",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/images-to-link-converter.appspot.com/o/image%2031.png?alt=media&token=d680b38d-30a9-4b05-b904-3a90a9ac8d70",
+      "description": "Introducing LAMA, the ultimate Pizza Ordering System that revolutionizes the way you order and manage pizza deliveries. With LAMA, you can choose from a variety of pizza sizes – large, medium, and small – and customize them with your preferred toppings. But that's not all – LAMA also offers an admin interface, allowing administrators to track and update the delivery status seamlessly. Experience the convenience of LAMA as you enjoy personalized pizzas and efficient delivery management, making it the go-to system for a delightful pizza experience.",
+      "title": "Lama",
+      "disclaimer": null,
+      "github": "https://github.com/harsh-vish14/chat-app-client",
+      "deploy": "https://chat-app-hv.web.app/",
+      "stack": ["REACT JS", "CSS", "SCSS", "HTML", "JAVASCRIPT", "NEXT JS"]
     }
   ]
 }
