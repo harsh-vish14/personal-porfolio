@@ -183,7 +183,7 @@ function NAVBAR() {
                 />
               </svg>
             </SheetTrigger>
-            <SheetContent size="full">
+            <SheetContent size="screen">
               <div className="text-6xl flex flex-col gap-10 justify-center h-full items-center whitespace-nowrap">
                 <div>
                   <div>

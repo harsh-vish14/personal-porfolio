@@ -2,7 +2,7 @@ import React from "react";
 
 function LOADER() {
   return (
-    <div className="flex flex-col gap-16 justify-center items-center fixed top-0 left-0 h-screen w-screen bg-primary-dark z-[1000] ">
+    <div className="flex flex-col gap-16 justify-center items-center fixed top-0 left-0 sm:h-screen sm:w-screen h-[121vh] w-[120vw] bg-primary-dark z-[1000] ">
       <>
         <svg
           width="25%"

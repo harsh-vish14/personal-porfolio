@@ -3,7 +3,7 @@ import me from "../../../src/assets/harsh_photo.png";
 
 function HEADER() {
   return (
-    <header className="flex items-center flex-col-reverse lg:flex-row h-screen">
+    <header className="flex items-center flex-col-reverse lg:flex-row md:h-screen h-[100vh]">
       <div className="font-bold md:text-7xl text-5xl relative flex flex-col gap-3 -mt-16">
         <div>Harshkumar</div>
         <svg

@@ -13,13 +13,13 @@ function TABLE_VIEW_PROJECT() {
         return (
           <>
             <div
-              className="bg-[#393C45] w-[80vw] rounded-lg h-[80vh] m-auto relative"
+              className="bg-[#393C45] w-[80vw] rounded-lg max-h-[80vh] h-[50vh] m-auto relative"
               style={{
                 background: `url(${item.image}) center center / contain no-repeat`,
               }}
             >
               <div
-                className="absolute top-5 -left-5 hidden sm:block"
+                className="absolute top-0 -left-5 hidden sm:block"
                 style={{ filter: "drop-shadow(0px 0px 5px #252831)" }}
               >
                 <img

@@ -53,8 +53,9 @@ function App() {
 
   return (
     <>
-      {navigator.userAgentData.mobile && <ALERT />}
       {pageLoading && <LOADER />}
+      {navigator.userAgentData.mobile && <ALERT />}
+
       <TooltipProvider>
         <NAVBAR />
         <div
