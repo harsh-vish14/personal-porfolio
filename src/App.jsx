@@ -9,6 +9,8 @@ import NAVBAR from "../components/navbar";
 import LOADER from "../components/loader/loader";
 import { useEffect, useState } from "react";
 import ALERT from "../components/home/alert_mobile";
+import "react-toastify/dist/ReactToastify.css";
+import { ToastContainer } from "react-toastify";
 
 function App() {
   console.log(navigator.userAgentData);
@@ -62,6 +64,7 @@ function App() {
           <HOME />
         </div>
       </TooltipProvider>
+      <ToastContainer />
     </>
   );
 }

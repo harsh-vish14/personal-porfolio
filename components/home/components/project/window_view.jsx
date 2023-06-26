@@ -11,6 +11,7 @@ import {
 function WINDOW_VIEW_PROJECT() {
   const divRefs = useRef([]);
   const [visibleDivId, setVisibleDivId] = useState(null);
+  const [placeholderVisible, setPlaceholderVisible] = useState(true);
 
   useEffect(() => {
     const options = {
@@ -51,7 +52,7 @@ function WINDOW_VIEW_PROJECT() {
   return (
     <div className="flex items-start">
       <div
-        className="bg-[#393C45] w-1/2 rounded-lg sticky h-[70vh] top-32 self-start"
+        className="group bg-[#393C45] w-1/2 rounded-lg sticky h-[70vh] top-32 self-start"
         style={{
           background: `url(${
             PROJECTS[visibleDivId || 0].image
