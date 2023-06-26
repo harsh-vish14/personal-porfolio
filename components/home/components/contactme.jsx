@@ -4,13 +4,29 @@ import { Textarea } from "../../../ui/textarea";
 import linkedin from "/linkedin.png";
 import github from "/github.png";
 import { useState } from "react";
+import axios from "axios";
 
 function CONTACT_ME() {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
 
-  const submitHandler = async () => {};
+  const submitHandler = async () => {
+    const data = {
+      name,
+      email,
+      message,
+      createdAt: new Date(),
+    };
+    fetch(
+      "https://script.google.com/macros/s/AKfycbxiFKGDZJ4A2K5RtnEOCMbHLIubKE8HhyYHlvx6oSsdI3yz9sWigwje1ZFYR5p7tm8/exec",
+      { method: "POST", body: JSON.stringify(data) }
+    )
+      .then((res) => {
+        console.log("SUCCESSFULLY SUBMITTED");
+      })
+      .catch((err) => console.log(err));
+  };
   return (
     <div className=" bg-gradient-to-t from-transparent to-[#393C45] block sm:flex  gap-x-3 rounded-lg p-5 ">
       <div className="w-full sm:w-1/2">
