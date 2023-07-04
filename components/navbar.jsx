@@ -115,8 +115,8 @@ function NAVBAR() {
           </div>
           <div>
             {/* TODO: make blog section visible once it is completed - DESKTOP NAVBAR LINK */}
-            {/* <a
-              href="#blogs"
+            <a
+              href="https://blog-harshvish.vercel.app/"
               className={
                 linkActive.blogs
                   ? "drop-shadow-[0px_0px_4px_#E54EFE] font-semibold"
@@ -124,7 +124,7 @@ function NAVBAR() {
               }
             >
               Blogs
-            </a> */}
+            </a>
           </div>
         </div>
         <div className="lg:-ml-[230px]">
@@ -183,8 +183,8 @@ function NAVBAR() {
                 />
               </svg>
             </SheetTrigger>
-            <SheetContent size="screen">
-              <div className="text-6xl flex flex-col gap-10 justify-center h-full items-center whitespace-nowrap">
+            <SheetContent size="full">
+              <div className="text-6xl flex flex-col gap-10 justify-center h-full items-center whitespace-nowrap overflow-hidden">
                 <div>
                   <div>
                     <a
@@ -250,10 +250,10 @@ function NAVBAR() {
                     TESTIMONY
                   </span>
                 </div>
-                {/* <div>
-                  TODO: make blog section visible once it is completed - MOBILE NAVBAR LINK
+                <div>
+                  {/* TODO: make blog section visible once it is completed - MOBILE NAVBAR LINK */}
                   <a
-                    href="#blogs"
+                    href="https://blog-harshvish.vercel.app/"
                     className={
                       linkActive.blogs
                         ? "drop-shadow-[0px_0px_4px_#E54EFE] font-semibold"
@@ -271,7 +271,7 @@ function NAVBAR() {
                   >
                     BLOGS
                   </span>
-                </div> */}
+                </div>
                 <div>
                   <a
                     href="#ContactMe"
