@@ -1,8 +1,8 @@
 {
   "PROJECTS": [
     {
-      "image": "https://firebasestorage.googleapis.com/v0/b/images-to-link-converter.appspot.com/o/shoppingify.png?alt=media&token=d840ca54-329d-498f-b657-7d1a668e95f4",
-      "logo": "https://firebasestorage.googleapis.com/v0/b/images-to-link-converter.appspot.com/o/shoppingify_icon.png?alt=media&token=e8936728-d4cc-4fd8-912c-bd77e4e480e7",
+      "image": "https://firebasestorage.googleapis.com/v0/b/images-to-link-converter.appspot.com/o/portfolio-images%2Fshoppingify.webp?alt=media&token=5f9e630c-ce03-45da-9b16-bae2c220c2f2",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/images-to-link-converter.appspot.com/o/portfolio-images%2Fshoppingify_icon.webp?alt=media&token=c6cd4518-813b-43f8-a6a7-03e85a0accdd",
       "description": "Introducing Shoppingfy, the ultimate digital grocery planner! With a user-friendly interface, you can choose from a wide range of predefined items or add your own. It intelligently categorizes items into meat/non-veg and veggies/fruits, providing you with a ratio of your choices. You can easily increase quantities, and deleted items are added to a history log. Resetting the list is a breeze. Simply login with your Google account on the website and experience the convenience of Shoppingfy. Say goodbye to scattered shopping lists and embrace a streamlined, personalized shopping experience!",
       "title": "Shoppinfy",
       "disclaimer": null,
@@ -11,8 +11,8 @@
       "stack": ["REACT JS", "CSS", "SCSS", "HTML", "JAVASCRIPT", "FIREBASE"]
     },
     {
-      "image": "https://firebasestorage.googleapis.com/v0/b/images-to-link-converter.appspot.com/o/chat_app.png?alt=media&token=7d39318e-9884-4717-ba3e-43bf75597876",
-      "logo": "https://firebasestorage.googleapis.com/v0/b/images-to-link-converter.appspot.com/o/chat_app_icon.png?alt=media&token=dd17d7be-6412-4e08-b6bf-c75737d5f2d2",
+      "image": "https://firebasestorage.googleapis.com/v0/b/images-to-link-converter.appspot.com/o/portfolio-images%2Fchat_app.webp?alt=media&token=7910540d-8888-41dd-81b5-f5ac7d00de3a",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/images-to-link-converter.appspot.com/o/portfolio-images%2Fchat_app_icon.webp?alt=media&token=39405c2a-33d8-4415-af54-c53cbae012a2",
       "description": "The ultimate Chat Group app that keeps you connected with peers like never before. With Chatify, you can create and join chat channels, send and receive messages, view channel members, and foster engaging conversations in real-time. Seamlessly navigate through channels, participate in discussions, and build lasting connections with Chatify's user-friendly interface and immersive features. Experience a new level of group communication and collaboration with Chatify, the go-to app for vibrant and interactive chat experiences.",
       "title": "Chat Group",
       "disclaimer": null,
@@ -30,8 +30,8 @@
       ]
     },
     {
-      "image": "https://firebasestorage.googleapis.com/v0/b/images-to-link-converter.appspot.com/o/pizza_ordering.png?alt=media&token=4f25be03-3334-490a-bb70-9e1f98413096",
-      "logo": "https://firebasestorage.googleapis.com/v0/b/images-to-link-converter.appspot.com/o/image%2031.png?alt=media&token=d680b38d-30a9-4b05-b904-3a90a9ac8d70",
+      "image": "https://firebasestorage.googleapis.com/v0/b/images-to-link-converter.appspot.com/o/portfolio-images%2Fpizza_ordering.webp?alt=media&token=5a54d228-684e-4e1c-ab07-1ae9b1f41b24",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/images-to-link-converter.appspot.com/o/portfolio-images%2Flama_icon.webp?alt=media&token=2688fa5d-ded4-45e5-9e5d-a80ad6d79c5c",
       "description": "Introducing LAMA, the ultimate Pizza Ordering System that revolutionizes the way you order and manage pizza deliveries. With LAMA, you can choose from a variety of pizza sizes – large, medium, and small – and customize them with your preferred toppings. But that's not all – LAMA also offers an admin interface, allowing administrators to track and update the delivery status seamlessly. Experience the convenience of LAMA as you enjoy personalized pizzas and efficient delivery management, making it the go-to system for a delightful pizza experience.",
       "title": "Lama",
       "disclaimer": null,
