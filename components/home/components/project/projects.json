@@ -35,8 +35,8 @@
       "description": "Introducing LAMA, the ultimate Pizza Ordering System that revolutionizes the way you order and manage pizza deliveries. With LAMA, you can choose from a variety of pizza sizes – large, medium, and small – and customize them with your preferred toppings. But that's not all – LAMA also offers an admin interface, allowing administrators to track and update the delivery status seamlessly. Experience the convenience of LAMA as you enjoy personalized pizzas and efficient delivery management, making it the go-to system for a delightful pizza experience.",
       "title": "Lama",
       "disclaimer": null,
-      "github": "https://pizza-ordering-system.vercel.app/",
-      "deploy": "https://chat-app-hv.web.app/",
+      "github": "https://github.com/harsh-vish14/pizza-ordering-system",
+      "deploy": "https://pizza-ordering-system.vercel.app/",
       "stack": ["REACT JS", "CSS", "SCSS", "HTML", "JAVASCRIPT", "NEXT JS"]
     }
   ]
