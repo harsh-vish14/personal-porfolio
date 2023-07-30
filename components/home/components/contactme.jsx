@@ -32,6 +32,8 @@ function CONTACT_ME() {
   }
 
   const submitHandler = async () => {
+    toastGenerator("❌ Getting Server Problem, Please use email Id");
+    return;
     // validators
     if (!name) {
       toastGenerator("❌ Please provide name");
@@ -119,6 +121,8 @@ function CONTACT_ME() {
             <div className="w-full">
               <button
                 class="rounded-md text-primary-dark font-semibold text-lg w-[200px] px-5 py-3 bg-pink hover:opacity-90  active:scale-95"
+                className="cursor-not-allowed opacity-60 rounded-md text-primary-dark font-semibold text-lg w-[200px] px-5 py-3 bg-pink"
+                // disabled={true}
                 onClick={submitHandler}
               >
                 Send
